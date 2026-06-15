@@ -1,0 +1,22 @@
+{
+  "name": "openskillbench-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Benchmark, lint, and standardize reusable skills for AI coding agents.",
+  "license": "MIT",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "build": "pnpm --filter @openskillbench/cli build",
+    "lint:skills": "pnpm --filter @openskillbench/cli dev lint examples/code-review-skill/SKILL.md",
+    "openskillbench": "pnpm --filter @openskillbench/cli dev"
+  },
+  "keywords": [
+    "ai-agents",
+    "agent-skills",
+    "codex",
+    "claude-code",
+    "cursor",
+    "benchmark",
+    "linter"
+  ]
+}

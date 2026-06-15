@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/skill.schema.json",
+  "skills": [
+    {
+      "name": "code-review",
+      "source": "../examples/code-review-skill/SKILL.md",
+      "platforms": [
+        "Codex",
+        "Claude Code",
+        "Cursor"
+      ],
+      "domains": [
+        "software-engineering",
+        "code-review"
+      ],
+      "maturity": "experimental",
+      "risk": "low"
+    },
+    {
+      "name": "frontend-implementation",
+      "source": "../examples/frontend-skill/SKILL.md",
+      "platforms": [
+        "Codex",
+        "Claude Code",
+        "Cursor"
+      ],
+      "domains": [
+        "frontend",
+        "ui"
+      ],
+      "maturity": "experimental",
+      "risk": "low"
+    }
+  ]
+}

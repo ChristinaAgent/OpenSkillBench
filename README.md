@@ -31,6 +31,19 @@ to discuss.
 - `registry/skills.json`: curated skill registry format
 - `packages/cli`: prototype CLI for linting skill files
 
+## Reference Skills and Benchmarks
+
+OpenSkillBench v0.1 includes five reference skill categories:
+
+- code review
+- bugfix
+- frontend implementation
+- documentation
+- refactor safety
+
+Each category is paired with a benchmark task and rubric so contributors can
+discuss skill quality with concrete examples.
+
 ## Quick Start
 
 ```bash

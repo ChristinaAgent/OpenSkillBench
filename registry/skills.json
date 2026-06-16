@@ -30,6 +30,51 @@
       ],
       "maturity": "experimental",
       "risk": "low"
+    },
+    {
+      "name": "bugfix",
+      "source": "../examples/bugfix-skill/SKILL.md",
+      "platforms": [
+        "Codex",
+        "Claude Code",
+        "Cursor"
+      ],
+      "domains": [
+        "software-engineering",
+        "debugging"
+      ],
+      "maturity": "experimental",
+      "risk": "low"
+    },
+    {
+      "name": "documentation",
+      "source": "../examples/documentation-skill/SKILL.md",
+      "platforms": [
+        "Codex",
+        "Claude Code",
+        "Cursor"
+      ],
+      "domains": [
+        "documentation",
+        "developer-experience"
+      ],
+      "maturity": "experimental",
+      "risk": "low"
+    },
+    {
+      "name": "refactor-safety",
+      "source": "../examples/refactor-skill/SKILL.md",
+      "platforms": [
+        "Codex",
+        "Claude Code",
+        "Cursor"
+      ],
+      "domains": [
+        "software-engineering",
+        "refactoring"
+      ],
+      "maturity": "experimental",
+      "risk": "low"
     }
   ]
 }

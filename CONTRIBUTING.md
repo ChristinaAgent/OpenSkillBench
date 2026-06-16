@@ -31,9 +31,9 @@ Avoid submitting prompt dumps without usage boundaries or examples.
 ## Development
 
 ```bash
-pnpm install
-pnpm build
-pnpm openskillbench lint examples/code-review-skill/SKILL.md
+npm install
+npm run build
+npm run openskillbench -- lint examples/code-review-skill/SKILL.md
 ```
 
 ## Pull Request Checklist

@@ -34,12 +34,14 @@ to discuss.
 ## Quick Start
 
 ```bash
-pnpm install
-pnpm build
-pnpm openskillbench lint examples/code-review-skill/SKILL.md
+npm install
+npm run build
+npm test
+npm run openskillbench -- lint examples/code-review-skill/SKILL.md
 ```
 
-The CLI currently checks for a small set of v0.1 quality signals:
+The CLI parses YAML front matter, validates metadata with
+`schemas/skill.schema.json`, and checks a small set of v0.1 quality signals:
 
 - clear description
 - trigger conditions

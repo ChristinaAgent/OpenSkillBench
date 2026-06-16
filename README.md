@@ -44,8 +44,10 @@ OpenSkillBench v0.1 includes five reference skill categories:
 Each category is paired with a benchmark task and rubric so contributors can
 discuss skill quality with concrete examples.
 
-Start with [What Makes a Good AI Agent Skill? / 什么是好的 AI Agent Skill？](docs/what-makes-a-good-ai-agent-skill.md)
-for the bilingual v0.1 quality model.
+Start with the v0.1 quality model:
+
+- [What Makes a Good AI Agent Skill?](docs/what-makes-a-good-ai-agent-skill.en.md)
+- [什么是好的 AI Agent Skill？](docs/what-makes-a-good-ai-agent-skill.zh.md)
 
 ## Quick Start
 
